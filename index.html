@@ -22,7 +22,11 @@
   <!-- external css -->
   <link rel="stylesheet" href="./css/style.css" />
   <!-- font awesome icons -->
-  <script src="https://kit.fontawesome.com/d54a613414.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://rawcdn.githack.com/barisalby/FontAwesome/fe4709f64c3085a87ed253d0f46b0aef5a88f3c0/css/all.min.css" />
+  <!-- fork awesome icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+    integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
 </head>
 
 <body>
@@ -30,7 +34,7 @@
   <nav class="navbar navbar-expand-lg fixed-top border-bottom border-light-subtle bg-body">
     <div class="container-fluid px-5">
       <a class="navbar-brand mx-2 text-primary" href="#">
-        <i class="fa-solid fa-code fa-xl"></i>
+        <i class="fa-solid fa-code fa-xl fa-shake" style="--fa-animation-duration: 5s;"></i>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,13 +98,13 @@
             for growth.
           </p>
           <div class="tech-icons mt-4">
-            <a href="javascript:void(0);"><img height="32" width="32" src="https://cdn.simpleicons.org/linux/0d6efd"
+            <a href="javascript:void(0);"><img height="36" width="36" src="https://cdn.simpleicons.org/linux/0d6efd"
                 alt="Linux" /></a>
-            <a href="javascript:void(0);"><img height="32" width="32"
+            <a href="javascript:void(0);"><img height="36" width="36"
                 src="https://cdn.simpleicons.org/visualstudiocode/0d6efd" alt="VS Code" /></a>
-            <a href="javascript:void(0);"><img height="32" width="32" src="https://cdn.simpleicons.org/figma/0d6efd"
+            <a href="javascript:void(0);"><img height="36" width="36" src="https://cdn.simpleicons.org/figma/0d6efd"
                 alt="Figma" /></a>
-            <a href="javascript:void(0);"><img height="32" width="32" src="https://cdn.simpleicons.org/git/0d6efd"
+            <a href="javascript:void(0);"><img height="36" width="36" src="https://cdn.simpleicons.org/git/0d6efd"
                 alt="Git" /></a>
           </div>
         </div>
@@ -115,9 +119,10 @@
         <div class="col-sm-6 mb-3 mb-sm-0">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">AdvenTour (2023)</h5>
+              <h5 class="card-title">AdvenTour (2023) <span class="text-body-secondary"><i class="fa fa-php"
+                    aria-hidden="true"></i> <i class="fa fa-mysql" aria-hidden="true"></i></span></h5>
               <p class="card-text text-secondary">
-                A simple travel agency website written in PHP native and MySQL
+                A travel agency website written in PHP native and MySQL
                 database with CRUD system.
               </p>
               <a href="https://hair-raising-minute.000webhostapp.com/" target="_blank"
@@ -128,7 +133,8 @@
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Text-Based (2022)</h5>
+              <h5 class="card-title">Text-Based (2022) <span class="text-body-secondary"><i class="fa fa-python"
+                    aria-hidden="true"></i></span></h5>
               <p class="card-text text-secondary">
                 A simple CLI game featuring two main stories with multiple
                 endings — written in Python.
@@ -159,7 +165,7 @@
       <div class="row align-items-start g-lg-5 pb-4">
         <div class="col-lg-7 text-center text-lg-start">
           <h4 class="display-7 fw-medium text-body-emphasis mb-2 d-none d-md-block">
-            Let's work together
+            Interested to collaborate?
           </h4>
           <p class="col-lg-10 fs-6 mb-5 text-secondary d-none d-md-block">
             Let's embark on a journey of innovation and creativity in the
@@ -172,12 +178,12 @@
           </p>
           <div class="social-icons my-3">
             <a href="https://github.com/slashedzer0" target="_blank" rel="noopener noreferrer"><i
-                class="fab fa-github fa-2x"></i></a>
-            <a href="javascript:void(0);" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x mx-3"></i></a>
-            <a href="https://discordapp.com/users/909294977698369557" target="_blank" rel="noopener noreferrer"><i
-                class="fab fa-discord fa-2x"></i></a>
-            <a href="javascript:void(0);" rel="noopener noreferrer"><i class="fab fa-instagram fa-2x mx-3"></i></a>
-            <a href="javascript:void(0);" rel="noopener noreferrer"><i class="fab fa-behance fa-2x"></i></a>
+                class="fa fa-github fa-2x"></i></a>
+            <a href="javascript:void(0);" rel="noopener noreferrer"><i class="fa fa-linkedin-square fa-2x mx-3"></i></a>
+            <a href="javascript:void(0);" rel="noopener noreferrer"><i class="fa fa-instagram fa-2x"></i></a>
+            <a href="javascript:void(0);" rel="noopener noreferrer"><i class="fa fa-twitter fa-2x mx-3"></i></a>
+            <a href="javascript:void(0);" rel="noopener noreferrer"><i class="fa fa-dribbble fa-2x"></i></a>
+            <a href="javascript:void(0);" rel="noopener noreferrer"><i class="fa fa-behance fa-2x ms-3"></i></a>
           </div>
         </div>
         <div class="col-md-10 mx-auto col-lg-5">
@@ -192,7 +198,7 @@
             </div>
             <div class="form-floating mb-3">
               <textarea class="form-control" id="floating-textarea" placeholder="Message"
-                style="height: 120px"></textarea>
+                style="height: 135px"></textarea>
               <label for="floating-textarea" class="text-secondary">Message</label>
             </div>
             <button class="w-100 btn btn-md btn-primary rounded-pill" type="submit">
@@ -204,7 +210,7 @@
     </div>
   </section>
   <!-- footer -->
-  <footer class="py-3 border-top border-light-subtle">
+  <footer class="py-2 border-top border-light-subtle">
     <p class="text-center text-body-secondary">&copy; 2023 Doni Wicaksono</p>
   </footer>
 </body>
